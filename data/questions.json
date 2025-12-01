@@ -1,0 +1,114 @@
+{
+  "topics": {
+    "Proposiciones": [
+      {
+        "type": "single",
+        "question": "¿Es una proposición? 'Hoy es lunes'",
+        "options": ["Sí, es proposición","No, no es proposición"],
+        "answer": 0
+      },
+      {
+        "type": "single",
+        "question": "La frase 'Abre la puerta' es:",
+        "options": ["Proposición verdadera","Proposición falsa","No es proposición"],
+        "answer": 2
+      }
+    ],
+    "Operadores Lógicos": [
+      {
+        "type": "single",
+        "question": "Si p es verdadera y q es falsa, p ∧ q es:",
+        "options": ["Verdadera","Falsa"],
+        "answer": 1
+      },
+      {
+        "type": "single",
+        "question": "Si p es falsa y q es verdadera, p ∨ q es:",
+        "options": ["Verdadera","Falsa"],
+        "answer": 0
+      },
+      {
+        "type": "single",
+        "question": "Si p es verdadera y q es falsa, p ⇒ q es:",
+        "options": ["Verdadera","Falsa"],
+        "answer": 1
+      },
+      {
+        "type": "single",
+        "question": "Si p y q son verdaderas, p ⇔ q es:",
+        "options": ["Verdadera","Falsa"],
+        "answer": 0
+      },
+      {
+        "type": "single",
+        "question": "Con p=V, q=F, r=V: (p ∧ ¬q) ∨ r es:",
+        "options": ["Verdadera","Falsa"],
+        "answer": 0
+      }
+    ],
+    "Tautologías y Contradicciones": [
+      {
+        "type": "single",
+        "question": "p ∨ ¬p es:",
+        "options": ["Tautología","Contradicción","Contingencia"],
+        "answer": 0
+      },
+      {
+        "type": "single",
+        "question": "p ∧ ¬p es:",
+        "options": ["Tautología","Contradicción","Contingencia"],
+        "answer": 1
+      }
+    ],
+    "Implicaciones Lógicas": [
+      {
+        "type": "single",
+        "question": "Modus Ponens: De 'Si estudio, apruebo' y 'Estudio' se deduce:",
+        "options": ["Apruebo","No apruebo","No se deduce"],
+        "answer": 0
+      },
+      {
+        "type": "single",
+        "question": "Modus Tollens: De 'Si llueve, me mojo' y 'No me mojo' se deduce:",
+        "options": ["No llueve","Llueve","No se deduce"],
+        "answer": 0
+      },
+      {
+        "type": "single",
+        "question": "Silogismo disyuntivo: 'p ∨ q' y 'No p' entonces:",
+        "options": ["q","p","p ∧ q"],
+        "answer": 0
+      }
+    ],
+    "Cuantificadores": [
+      {
+        "type": "single",
+        "question": "La negación de (∀x) P(x) es:",
+        "options": ["(∃x) ¬P(x)","(∀x) ¬P(x)","(∃x) P(x)"],
+        "answer": 0
+      },
+      {
+        "type": "single",
+        "question": "La negación de (∃x) P(x) es:",
+        "options": ["(∀x) ¬P(x)","(∃x) ¬P(x)","(∀x) P(x)"],
+        "answer": 0
+      }
+    ],
+    "Interpretación de Cuantificadores": [
+      {
+        "type": "single",
+        "question": "En un dominio con A,B; R(x,y): 'x prefiere a y'. Si R(A,B)=V y R(B,A)=F, 'Existe alguien que prefiere a alguien' es:",
+        "options": ["Verdadera","Falsa"],
+        "answer": 0
+      },
+      {
+        "type": "single",
+        "question": "Con el mismo dominio, '(∀x)(∃y) R(x,y)' es:",
+        "options": ["Verdadera","Falsa"],
+        "answer": 0
+      }
+    ]
+  }
+}
+
+

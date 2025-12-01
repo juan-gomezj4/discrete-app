@@ -1,0 +1,82 @@
+#################################################
+#### Git Ignore Template
+#################################################
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+.venv/
+venv/
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+*.log
+*.db
+*.rdb
+
+# --- UV ---
+.uv/
+.uv-cache/
+.uv-lock/
+
+
+# --- Editors ---
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+!launch.json
+.history/
+
+# IntelliJ / PyCharm
+.idea/
+*.iml
+out/
+.idea_modules/
+
+# Cursor
+.cursor/
+.cursorrules
+.cursorignore
+
+# --- macOS ---
+*.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+
+# --- Vim / Emacs ---
+*~
+.*.swo
+.*.swp
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# --- Spyder ---
+.spyproject/
+
+# --- Streamlit ---
+# Mantener .streamlit/config.toml del proyecto
+# Ignorar cache y datos locales
+.streamlit/cache/
+.streamlit/credentials.toml
+
+# --- Documentation ---
+docs/_build/
